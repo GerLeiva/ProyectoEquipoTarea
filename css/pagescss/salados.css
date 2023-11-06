@@ -1,3 +1,7 @@
+body {
+    background-color: #FBF3EF;
+    font-family: Arial;
+}
 .img{
     width: 308px;
     height: 178px;
@@ -8,7 +12,8 @@
     justify-content: center;
     font-size: 50px;
 
-}
+} 
+/* .receta = reviro y .receta2 =chipa guazú*/
 .receta{
     display:inline;
     width: 420px;
@@ -24,11 +29,10 @@
 .receta:hover{
     transform: scale(1.2);
     transition: transform 0.3s;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 70%;
+    max-height: 70%;
 
 }
-
 .conteiner{
     display: flex;
     flex-flow:row wrap;
@@ -48,7 +52,7 @@
 }
 .receta2:hover {
     transform: scale(1.2);
-    transition: transform 0.3s;
+    transition: transform 1s;
     max-width: 100%;
     max-height: 100%;
 
@@ -67,8 +71,4 @@
 }
 .article{
     justify-content: flex-start;
-}
-body{
-    background-color: #FBF3EF;
-    font-family: Arial;
 }
