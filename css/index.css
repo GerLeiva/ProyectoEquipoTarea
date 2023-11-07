@@ -4,9 +4,15 @@
     font-weight: bold;
     font-style: bold;
 }
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: PlaypenSans;
-    font-weight: bold;
+    font-weight: normal;
 }
 /* Reset */
 *{
@@ -19,11 +25,11 @@ body{
 .cabecera{
     padding: 10px;
     background: #fee97f;
+    font-weight: bold;
 }
 /* Titulo y buscador */
 .titulonav{
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
     align-content: center;
 }
@@ -40,7 +46,7 @@ body{
     list-style: none;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin: 5px
+    margin: 5px;
 }
 .item{
     margin: 5px;
@@ -56,4 +62,11 @@ body{
 .item a{
     text-decoration: none;
     color: #333333;
+}
+.parrafos{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    
 }
