@@ -1,6 +1,18 @@
 
+<<<<<<< HEAD
 body {
     background-color: #FBF3EF;
+=======
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+body {
+    font-family: PlaypenSans;
+    font-weight: bold;
+>>>>>>> fa17d473dd044c8c1b6bef38a5fb506ba121663b
 }
 .img{
     width: 308px;
