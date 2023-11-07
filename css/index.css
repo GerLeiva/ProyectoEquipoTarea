@@ -35,24 +35,25 @@ body{
     padding: 25px;
 }
     /* Navegacion principal */
-    .navegacion{
-        display: flex;
-        list-style: none;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        margin: 5px
-    }
-    .item{
-        text-align: center;
-        width: 200px;
-        height: 30px;
-        margin: 5px;
-        padding: 10px;
-        border: 2px solid #6f7681;
-        background: #b2dfdb;
-        font-size: 20px;
-    }
-    .item a{
-        text-decoration: none;
-        color: #333333;
-    }
+.navegacion{
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px
+}
+.item{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #6f7681;
+    background: #b2dfdb;
+    font-size: 20px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+.item a{
+    text-decoration: none;
+    color: #333333;
+}
