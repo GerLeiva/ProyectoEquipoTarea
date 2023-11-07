@@ -45,12 +45,13 @@ body{
 .item{
     margin: 5px;
     padding: 5px;
-    border: 10px #6f7681;
+    border: 2px solid #6f7681;
     background: #b2dfdb;
     font-size: 20px;
     width: 160px;
     height: 30px;
     text-align: center;
+    border-radius: 10px;
 }
 .item a{
     text-decoration: none;
