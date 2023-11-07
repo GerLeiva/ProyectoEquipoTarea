@@ -90,20 +90,26 @@ body{
     
 }
 .parrafo2{
+    display: flex;
     margin-left: 200px;
     text-align: end;
     margin-right: 30px; 
     padding: 10px;
     border-radius: 30px;
     background-color: #F7E8DE;
+    justify-content: center;
+    align-items: center;
 }
 .parrafo1{
+    display: flex;
     padding: 10px;
     margin-left: 30px;
     text-align: start; 
     margin-right: 500px;
     border-radius: 30px;
     background-color: #F7E8DE;
+    justify-content: center;
+    align-items: center;
 }
 .img2{
     display: flex;
