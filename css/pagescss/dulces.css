@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: PlaypenSans;
+    font-weight: normal;
+    background-color: #FBF3EF;
+}
+
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera {
+    padding: 10px;
+    background: #fee97f;
+    font-weight: bold;
+}
+
+/* Titulo y buscador */
+.titulonav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.titulo {
+    font-size: 3em;
+    color: #3a414a;
+}
+
+.barra-busqueda {
+    padding: 25px;
+}
+
+/* Navegacion principal */
+.navegacion {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.item {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #6f7681;
+    background: #b2dfdb;
+    font-size: 20px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.img {
+    width: 308px;
+    height: 178px;
+}
+
+.img {
+    width: 308px;
+    height: 178px;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;    
+}
+
+/* .receta = reviro y .receta2 =chipa guazú*/
+.receta {
+    display: inline;
+    width: 420px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 100px;
+    background-color: #E3DCD8;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.receta:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+    max-width: 70%;
+    max-height: 70%;
+
+}
+
+.conteiner {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.receta2 {
+    display: inline;
+    width: 420px;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 100px;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #FBF3EF;
+}
+
+.receta2:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.receta h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.receta2 h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.receta img {
+    text-align: center;
+}
+
+.article {
+    justify-content: flex-start;
+}
