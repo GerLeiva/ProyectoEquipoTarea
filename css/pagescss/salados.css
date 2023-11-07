@@ -16,16 +16,13 @@
 body {
     font-family: PlaypenSans;
     font-weight: normal;
+    background-color: #FBF3EF;
 }
 
 /* Reset */
 * {
     margin: 0px;
     padding: 0px;
-}
-
-body {
-    font-family: "PlaypenSans";
 }
 
 .cabecera {
@@ -76,18 +73,11 @@ body {
     color: #333333;
 }
 
-body {
-    font-family: PlaypenSans;
-    font-weight: bold;
-}
 .img{
     width: 308px;
     height: 178px;
 }
 
-body{
-    background-color: #FBF3EF;
-}
 .titulo{
     display:flex;
     justify-content: center;
