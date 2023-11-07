@@ -18,6 +18,7 @@ body {
     display:flex;
     justify-content: center;
     font-size: 50px;
+    margin-bottom: 100px;
 
 } 
 /* .receta = reviro y .receta2 =chipa guazú*/
@@ -30,14 +31,14 @@ body {
     background-color: #E3DCD8;
     align-content: center;
     justify-content: center;
-    border-radius: 10%;
+    border-radius: 50px;
     font-size: 20px;    
 }
 .receta:hover{
     transform: scale(1.2);
     transition: transform 0.3s;
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 40%;
+    max-height: 40%;
 
 }
 .conteiner{
