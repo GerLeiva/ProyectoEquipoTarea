@@ -35,21 +35,21 @@ body{
     padding: 25px;
 }
     /* Navegacion principal */
-    .navegacion{
-        display: flex;
-        list-style: none;
-        flex-flow: row wrap;
-        justify-content: space-around;
-        margin: 5px
-    }
-    .item{
-        margin: 5px;
-        padding: 10px;
-        border: 10px #6f7681;
-        background: #b2dfdb;
-        font-size: 20px;
-    }
-    .item a{
-        text-decoration: none;
-        color: #333333;
-    }
+.navegacion{
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px
+}
+.item{
+    margin: 5px;
+    padding: 10px;
+    border: 10px #6f7681;
+    background: #b2dfdb;
+    font-size: 20px;
+}
+.item a{
+    text-decoration: none;
+    color: #333333;
+}
