@@ -73,3 +73,41 @@ body{
     padding: 10px;
     border-radius: 30px;
 }
+.subtitulo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.img{
+    display: flex;
+    width: 200px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.conteiner{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.parrafo2{
+    margin-left: 200px;
+    text-align: end;
+    margin-right: 30px; 
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F7E8DE;
+}
+.parrafo1{
+    padding: 10px;
+    margin-left: 30px;
+    text-align: start; 
+    margin-right: 500px;
+    border-radius: 30px;
+    background-color: #F7E8DE;
+}
+.img2{
+    display: flex;
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 100px;
+}
