@@ -9,8 +9,42 @@
 </head>
 
 <body>
-    <main>
-        <h1 class="titulo">Recetas Saladas</h1>
+        <header>
+            <nav class="cabecera">
+                <!-- Titulo y Busqueda -->
+                <div class="titulonav">
+                    <h1 class="titulo">De mi Tierra Colorada</h1>
+                    <div class="barra-busqueda">
+                        <form action="/buscar" method="get">
+                            <input type="text" name="q" placeholder="Buscar...">
+                            <button type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- navegacion botones -->
+                <div>
+                    <ul class="navegacion">
+                        <li class="item">
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li class="item">
+                            <a href="./dulces.html">Dulce</a>
+                        </li>
+                        <li class="item">
+                            <a href="./salados.html">Salado</a>
+                        </li>
+                        <li class="item">
+                            <a href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="item">
+                            <a href="./sobre-nosotros.html">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <main>       
+        <h1 class="titulo">Recetas Saladas</h1>       
         <div class="conteiner">                       
             <!-- Receta de Reviro -->
             <section class="receta">               
