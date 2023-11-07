@@ -1,6 +1,13 @@
+
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
 body {
-    background-color: #FBF3EF;
-    font-family: Arial;
+    font-family: PlaypenSans;
+    font-weight: bold;
 }
 .img{
     width: 308px;
