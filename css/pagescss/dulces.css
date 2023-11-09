@@ -40,6 +40,7 @@ body {
 .titulo {
     font-size: 3em;
     color: #3a414a;
+    margin-bottom: 80px;
 }
 
 .barra-busqueda {
