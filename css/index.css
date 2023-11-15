@@ -127,6 +127,7 @@ body{
     font-weight: bold;
     border: 1px solid black;
     border-radius: 5px;
+    
 }
 .registro{
     /* Alinea el contenido a la derecha */
@@ -142,7 +143,7 @@ body{
     font-size: 20px;
     color: #3a414a;
     display: flex; 
-    padding-left: 300px;
+    margin-left: 20%;
     align-items: center;
 }
 .benviar{
@@ -151,7 +152,13 @@ body{
     margin-top: 10px;
     background-color: #b2dfdb;   
     font-family: "PlaypenSans", sans-serif;
+    
 }
 .titulof{
     margin-bottom: 10px;
+}
+.iconos{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;   
 }
