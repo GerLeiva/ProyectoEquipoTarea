@@ -122,12 +122,12 @@ body{
     margin-right: 100px;
 }
 .piedepagina{
-    padding: 10px;
+    padding-top: 10px;
     background: #fee97f;
     font-weight: bold;
     border: 1px solid black;
     border-radius: 5px;
-    
+    align-items: flex-end;
 }
 .registro{
     /* Alinea el contenido a la derecha */
@@ -138,6 +138,7 @@ body{
 .pie{
     display: flex;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .titulofooter{
     font-size: 20px;
@@ -152,13 +153,15 @@ body{
     margin-top: 10px;
     background-color: #b2dfdb;   
     font-family: "PlaypenSans", sans-serif;
-    
 }
 .titulof{
     margin-bottom: 10px;
 }
 .iconos{
     display: flex;
-    justify-content: start;
-    margin-bottom: 10px;   
+    justify-content: start;   
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
 }
