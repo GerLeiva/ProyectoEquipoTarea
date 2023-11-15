@@ -4,38 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/pagescss/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Contacto</title>
 </head>
 <body>
-    <header>
-    </header>
-    <main>
+<header>
+    <nav class="cabecera">
+        <!-- Titulo y Busqueda -->
+        <div class="titulonav">
+            <h1 class="titulo">De mi Tierra Colorada</h1>
+            <div class="barra-busqueda">
+                <form action="/buscar" method="get">
+                    <label for="que buscas">¿Qué buscas?</label>
+                    <input type="text" style="padding: 3px; border-radius: 5px;" name="que buscas"
+                        placeholder="Buscar...">
+                </form>
+            </div>
+        </div>
+        <!-- navegacion botones -->
+        <div>
+            <ul class="navegacion">
+                <li class="item">
+                    <a href="/index.html">Inicio</a>
+                </li>
+                <li class="item">
+                    <a href="./pages/dulces.html">Dulce</a>
+                </li>
+                <li class="item">
+                    <a href="./pages/salados.html">Salado</a>
+                </li>
+                <li class="item">
+                    <a href="./pages/contacto.html">Contacto</a>
+                </li>
+                <li class="item">
+                    <a href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <main class="colormain">
+        <!-- casilla de contacto -->
         <h1 class="titulomain">Contacto</h1>
-        <div class="div">
+        <div class="mainContacto">
             <div class="inline" >
                 <label for="nombre"> Tu Nombre:</label>
-                <input  class = "input" type="text" name="nombre">
+                <input type="text" name="nombre">
             </div>
             <div class="inline">
                 <label for="email">Tu email:</label>
-                <input class = input type="email" name="email">
+                <input type="email" name="email">
             </div>
             <div class="comentario">
-                <label  for="comentarios">Que quieres decirnos?:</label>
+                <label for="comentarios">Que quieres decirnos?:</label>
             </div><br>
-            <div>
+            <div class="casilla" >
                 <textarea name="comentarios" id="comentarios" cols="80" rows="20"></textarea><br>
             </div>
             <div class="boton">
                 <input type="submit" value="Enviar">
             </div>
-        </div>
-
-        <div>
-        <p>O puedes enviarnos un email a Equipotarea@gmail.com</p>
+            <div class="mainContacto">
+            <p>O puedes enviarnos un email 
+            a Equipotarea@gmail.com</p>
+            </div>
         </div>
 
     </main>
+    <footer>
+        <nav class="piedepagina">
+            <div class="pie">
+                <h3 class="titulofooter">TODOS LOS DERECHOS RESERVADOS ©2023</h3>
+                <form>
+                    <div class="registro">
+                        <h3 class="titulof">Registrate y recibe nuestras recetas</h3>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" style="border-radius: 10px;" name="Nombre" placeholder=""><br>
+                        <label for="Correo electrónico">Correo electrónico</label>
+                        <input type="text" style="border-radius: 10px;" name="Correo electrónico" placeholder=""><br>
+                        <button class="benviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="iconos">
+                <i class="fa-brands fa-facebook fa-xl" style="color: #000000; margin-right: 10px;"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #000000;margin-right: 10px;"></i>
+                <i class="fa-brands fa-twitter fa-xl" style="color: #000000; margin-right: 10px;"></i>
+            </div>
+        </nav>
+    </footer>
     
 </body>
 </html>

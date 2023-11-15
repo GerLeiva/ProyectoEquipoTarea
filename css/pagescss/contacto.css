@@ -1,42 +1,182 @@
 
- /* formulario de contacto */
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
 
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: PlaypenSans;
+    font-weight: normal;
+}
+
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "PlaypenSans";
+}
+
+.cabecera {
+    padding: 10px;
+    background: #fee97f;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Titulo y buscador */
+.titulonav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.titulo {
+    font-size: 3em;
+    color: #3a414a;
+}
+
+.barra-busqueda {
+    padding: 25px;
+}
+
+/* Navegacion principal */
+.navegacion {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.item {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #6f7681;
+    background: #b2dfdb;
+    font-size: 20px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+ /* formulario de contacto */
+.colormain{
+    background-color: #FBF3EF;
+}
 .titulomain{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px ;
     font-size: 3em;
     color: #3a414a;
     margin-bottom: 80px;
 
 }
-div{
+.mainContacto{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    position: relative;
 
 }
 .inline {
     display: inline;
     padding: 5px;
     margin-bottom: 40px;
+    margin-left: 5px;
     justify-content: center;
     align-items: center;
-    border-radius:  70px solid color black;
 }
-
+input{
+    border:1px solid black;
+    border-radius: 10px;
+}
 .comentario{
     display: flex;
     position:relative;
-    right: 200px;
-    
+    right: 200px; 
 }
+
 .boton{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 40px;
 
+}
+
+.mainContacto P {
+    display: flex;
+    align-items: center;
+    position:relative;
+    left: 550px;
+    bottom: 350px;
+}
+
+
+/* CSS del footer */
+/* Copiar todo esto y pegar en el CSS de sus respectivas págians */
+.piedepagina {
+    padding-top: 10px;
+    background: #fee97f;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: flex-end;
+}
+
+.registro {
+    /* Alinea el contenido a la derecha */
+    text-align: right;
+    justify-content: end;
+    color: #3a414a;
+}
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.titulofooter {
+    font-size: 20px;
+    color: #3a414a;
+    display: flex;
+    margin-left: 20%;
+    align-items: center;
+}
+
+.benviar {
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 10px;
+    background-color: #b2dfdb;
+    font-family: "PlaypenSans", sans-serif;
+}
+
+.titulof {
+    margin-bottom: 10px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
 }
