@@ -121,12 +121,16 @@ body{
     border-radius: 10px;
     margin-right: 100px;
 }
+
+/* CSS del footer */
+/* Copiar todo esto y pegar en el CSS de sus respectivas págians */
 .piedepagina{
-    padding: 10px;
+    padding-top: 10px;
     background: #fee97f;
     font-weight: bold;
     border: 1px solid black;
     border-radius: 5px;
+    align-items: flex-end;
 }
 .registro{
     /* Alinea el contenido a la derecha */
@@ -137,12 +141,13 @@ body{
 .pie{
     display: flex;
     justify-content: space-between;
+    margin-right: 10px;
 }
 .titulofooter{
     font-size: 20px;
     color: #3a414a;
     display: flex; 
-    padding-left: 300px;
+    margin-left: 20%;
     align-items: center;
 }
 .benviar{
@@ -154,4 +159,12 @@ body{
 }
 .titulof{
     margin-bottom: 10px;
+}
+.iconos{
+    display: flex;
+    justify-content: start;   
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 2px;
+    margin-left: 10px;
 }

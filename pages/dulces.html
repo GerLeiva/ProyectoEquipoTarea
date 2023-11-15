@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/pagescss/dulces.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Recetas-Dulces</title>
 </head>
 <body>
@@ -15,8 +16,8 @@
                         <h1 class="titulo">De mi Tierra Colorada</h1>
                         <div class="barra-busqueda">
                             <form action="/buscar" method="get">
-                                <input type="text" name="q" placeholder="Buscar...">
-                                <button type="submit">Buscar</button>
+                                <label for="que buscas">¿Qué buscas?</label>
+                                <input type="text" style="padding: 3px; border-radius: 5px;" name="que buscas" placeholder="Buscar...">
                             </form>
                         </div>
                     </div>
@@ -95,6 +96,27 @@
             </section>
         </div>
     </main>
-    
+    <footer>
+        <nav class="piedepagina">
+            <div class="pie">
+                <h3 class="titulofooter">TODOS LOS DERECHOS RESERVADOS ©2023</h3>
+                <form>
+                    <div class="registro">
+                        <h3 class="titulof">Registrate y recibe nuestras recetas</h3>
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" style="border-radius: 10px;" name="Nombre" placeholder=""><br>
+                        <label for="Correo electrónico">Correo electrónico</label>
+                        <input type="text" style="border-radius: 10px;" name="Correo electrónico" placeholder=""><br>
+                        <button class="benviar">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="iconos">
+                <i class="fa-brands fa-facebook fa-xl" style="color: #000000; margin-right: 10px;"></i>
+                <i class="fa-brands fa-instagram fa-xl" style="color: #000000;margin-right: 10px;"></i>
+                <i class="fa-brands fa-twitter fa-xl" style="color: #000000; margin-right: 10px;"></i>
+            </div>
+        </nav>
+    </footer>
 </body>
 </html>
