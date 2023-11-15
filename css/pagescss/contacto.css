@@ -1,0 +1,102 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: 'PlaypenSans';
+    src: url(/Fuente/static/PlaypenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: PlaypenSans;
+    font-weight: normal;
+    background-color: #FBF3EF;
+}
+
+/* Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecera {
+    padding: 10px;
+    background: #fee97f;
+    font-weight: bold;
+}
+
+/* Titulo y buscador */
+.titulonav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.titulo {
+    font-size: 3em;
+    color: #3a414a;
+    margin-bottom: 80px;
+}
+
+.barra-busqueda {
+    padding: 25px;
+}
+
+/* Navegacion principal */
+.navegacion {
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.item {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #6f7681;
+    background: #b2dfdb;
+    font-size: 20px;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* titulo comentario y titulo*/
+
+.titulomain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px ;
+    font-size: 3em;
+    color: #3a414a;
+    margin-bottom: 80px;
+
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#inline {
+    display: inline;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius:  70px solid color black;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pagescss/contacto.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav class="cabecera">
+            <!-- Titulo y Busqueda -->
+            <div class="titulonav">
+                <h1 class="titulo">De mi Tierra Colorada</h1>
+                <div class="barra-busqueda">
+                    <form action="/buscar" method="get">
+                        <input type="text" name="q" placeholder="Buscar...">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+            <!-- navegacion botones -->
+            <div>
+                <ul class="navegacion">
+                    <li class="item">
+                        <a href="../index.html">Inicio</a>
+                    </li>
+                    <li class="item">
+                        <a href="./dulces.html">Dulce</a>
+                    </li>
+                    <li class="item">
+                        <a href="./salados.html">Salado</a>
+                    </li>
+                    <li class="item">
+                        <a href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="item">
+                        <a href="./sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulomain">Contacto</h1>
+        <div class="div">
+            <div id="inline" >
+            <label for="nombre"> Tu Nombre:</label>
+            <input  class = "input" type="text" name="nombre">
+            </div>
+            <div id="inline">
+            <label for="email">Tu email:</label>
+            <input class = input type="email" name="email">
+            </div>
+            <div>
+            <label  for="comentarios">Dejanos tu comentarios:</label><br>
+            <textarea class = "input" name="comentarios" id="comentarios" cols="80" rows="20"></textarea><br>
+            </div>
+            <input class = "input" type="submit" value="Enviar">
+
+        </div>
+
+        <div>
+        <p>O puedes enviarnos un email a Equipotarea@gmail.com</p>
+        </div>
+
+    </main>
+    
+</body>
+</html>
