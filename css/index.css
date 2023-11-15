@@ -26,6 +26,8 @@ body{
     padding: 10px;
     background: #fee97f;
     font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 /* Titulo y buscador */
 .titulonav{
@@ -81,6 +83,7 @@ body{
 .img{
     display: flex;
     width: 200px;
+    height: 200px;
     border-radius: 10px;
     margin-left: 100px;
 }
@@ -91,7 +94,7 @@ body{
 }
 .parrafo2{
     display: flex;
-    margin-left: 200px;
+    margin-left: 10px;
     text-align: end;
     margin-right: 30px; 
     padding: 10px;
@@ -105,7 +108,7 @@ body{
     padding: 10px;
     margin-left: 30px;
     text-align: start; 
-    margin-right: 500px;
+    margin-right: 10px;
     border-radius: 30px;
     background-color: #F7E8DE;
     justify-content: center;
@@ -114,6 +117,41 @@ body{
 .img2{
     display: flex;
     width: 300px;
+    height: 200px;
     border-radius: 10px;
     margin-right: 100px;
+}
+.piedepagina{
+    padding: 10px;
+    background: #fee97f;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.registro{
+    /* Alinea el contenido a la derecha */
+    text-align: right; 
+    justify-content: end;
+    color: #3a414a;
+}
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+.titulofooter{
+    font-size: 20px;
+    color: #3a414a;
+    display: flex; 
+    padding-left: 300px;
+    align-items: center;
+}
+.benviar{
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 10px;
+    background-color: #b2dfdb;   
+    font-family: "PlaypenSans", sans-serif;
+}
+.titulof{
+    margin-bottom: 10px;
 }
